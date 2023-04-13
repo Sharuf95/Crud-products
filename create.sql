@@ -1,4 +1,4 @@
-CREATE TABLE "products" (
+CREATE TABLE "products"(
 	"name"	TEXT,
 	"price"	INTEGER,
 	"description"	TEXT,

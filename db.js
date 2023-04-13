@@ -6,7 +6,7 @@ const db = new sqlite3.Database("./data.db",sqlite3.OPEN_READWRITE,
            console.log("DB Error")
            console.error(error)
         }else{
-                console.log("DB Connected")
+              console.log("DB Connected")
         }
      }
 )

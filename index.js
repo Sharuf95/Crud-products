@@ -22,7 +22,7 @@ app.put ('/products/:productID',(request,response) => {
 })
 app.delete('products/products',(request,response) => {
         response.json({
-                status : true
+                  status : true
         })
 })
 
